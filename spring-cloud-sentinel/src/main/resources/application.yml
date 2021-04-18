@@ -5,3 +5,5 @@ spring:
     sentinel:
       transport:
         dashboard: localhost:8888
+      servlet:
+        block-page: https://www.baidu.com
